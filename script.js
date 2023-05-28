@@ -116,6 +116,8 @@ skillTitle.addEventListener("mouseout", function () {
   viewMoreSkillBtn.classList.add("hidden");
 });
 
+// View more and View less info-job information
+
 viewMoreExperienceBtn.addEventListener("click", function () {
   if (experienceContentStatus) {
     experienceContent.classList.add("hidden");
