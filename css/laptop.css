@@ -181,8 +181,6 @@ section > .container {
 #about .personal-info .section-title {
   font-size: 23px;
   color: #46484b;
-
-  margin-bottom: 20px;
 }
 
 #about .personal-info .sign-in input[type="Text"] {
@@ -228,7 +226,7 @@ section > .container {
 }
 
 #about .personal-info .info li:last-child {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 #job-info {
