@@ -1,0 +1,40 @@
+@media screen and (max-width: 750px) {
+  .avatar {
+    display: none;
+  }
+
+  #nav-bar .container {
+    display: block;
+  }
+
+  #nav-bar .nav-element {
+    height: 40px;
+    border: none;
+
+    justify-content: flex-start;
+  }
+
+  #nav-bar .nav-element:last-child {
+    border: none;
+  }
+
+  #nav-bar .name-title {
+    display: none;
+  }
+
+  #certificate .certificates::before {
+    display: none;
+  }
+
+  #certificate .certificates::after {
+    display: none;
+  }
+
+  #certificate .certificate {
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  #project .container .jod-title {
+    height: 10%;
+  }
+}
